@@ -30,7 +30,7 @@
 
     <!-- Diálogo de edição -->
     <dialog id="editDialog">
-        <form id="editForm" method="dialog">
+        <form id="editForm" method="dialog" onsubmit="editTask(event)">
             <input type="hidden" id="editTaskId" name="editTaskId">
             <input type="text" id="editTitle" name="editTitle" required>
             <textarea id="editDescription" name="editDescription" required></textarea>
